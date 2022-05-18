@@ -905,10 +905,6 @@ body {
         transform: translateY(40px);
     }
 
-    .search-container {
-        display: none;
-    }
-
     .header3 {
         margin-top: 60px;
     }
