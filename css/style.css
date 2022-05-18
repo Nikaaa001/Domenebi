@@ -901,6 +901,10 @@ body {
         z-index: 88;
     }
 
+    .search-container {
+        display: none;
+    }
+
     .ads-container {
         transform: translateY(40px);
     }
