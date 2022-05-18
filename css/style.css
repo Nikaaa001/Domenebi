@@ -707,7 +707,7 @@ body {
     width: 100%;
     background-color: #FFFFFF;
     display: flex;
-    width: 827px;
+    max-width: 827px;
     height: 69px;
     margin: 3px auto;
 }
@@ -914,6 +914,76 @@ body {
     }
 
 }
+
+@media only screen and (max-width: 950px) {
+    .domenebi-container {
+        width: 800px;
+    }
+
+    .gijashvili-domeins-container {
+        width: 750px;
+    }
+
+    .domeins-bottom-line {
+        width: 720px;
+    }
+} 
+
+@media only screen and (max-width: 890px) {
+    .domenebi-container {
+        width: 700px;
+    }
+
+    .gijashvili-domeins-container {
+        width: 650px;
+    }
+
+    .domeins-bottom-line {
+        width: 620px;
+    }
+} 
+
+@media only screen and (max-width: 790px) {
+    .domenebi-container {
+        width: 600px;
+    }
+
+    .gijashvili-domeins-container {
+        width: 550px;
+    }
+
+    .domeins-bottom-line {
+        width: 520px;
+    }
+} 
+
+@media only screen and (max-width: 690px) {
+    .domenebi-container {
+        width: 500px;
+    }
+
+    .gijashvili-domeins-container {
+        width: 450px;
+    }
+
+    .domeins-bottom-line {
+        width: 420px;
+    }
+} 
+
+@media only screen and (max-width: 590px) {
+    .domenebi-container {
+        width: 400px;
+    }
+
+    .gijashvili-domeins-container {
+        width: 350px;
+    }
+
+    .domeins-bottom-line {
+        width: 320px;
+    }
+} 
 
 @media only screen and (max-width: 1030px) {
     .container-header2 {
