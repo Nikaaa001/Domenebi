@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lemondo</title>
+</head>
+
+<body>
+    <div class="container-header">
+
+        <div class="container__header-home">
+
+            <input type="checkbox" id="hamburger-input" class="burger-shower" />
+            <label id="hamburger-menu" for="hamburger-input">
+                <nav id="sidebar-menu">
+                    <h3>Menu</h3>
+                    <div class="search-container">
+
+                        <div class="search-container__inner">
+
+                            <input class="search" type="text" placeholder="სახელით ძიება">
+
+                            <h2 class="fasi">ფასი</h2>
+
+                            <div class="wrapper">
+                                <div class="price-input">
+                                    <div class="inputwithicon">
+                                        <input class="input-min" type="number" value="50">
+                                        <i class="fa-solid fa-lari-sign"></i>
+                                    </div>
+                                    <div class="inputwithicon1">
+                                        <input class="input-max" type="number" value="50000">
+                                        <i class="fa-solid fa-lari-sign"></i>
+                                    </div>
+                                </div>
+                                <div class="slider">
+                                    <div class="progress"></div>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="range-min" min="50" max="50000" value="2500" step="150">
+                                    <input type="range" class="range-max" min="50" max="50000" value="7500" step="150">
+                                </div>
+                            </div>
+
+                            <div class="simboloebis-raodenoba-container">
+
+                                <h1 class="simboloebis-raodenoba">სიმბოლოების რაოდონობა</h1>
+
+                            </div>
+
+                            <h1 class="kategoriebi">კატეგორიები</h1>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>ბიზნესი</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>უძრავი ქონება</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>ავტო</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>მედიცინა</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>ტექნოლოგიები</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>თამაშები</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>გართობა და დასვენება</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>მედია</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>განათლება</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>კომერცია</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>ფინანსები</p>
+                            </label>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>ბიზნესი</p>
+                            </label>
+
+                            <h1 class="domenis-zona">დომენის ზონა</h1>
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>.ge</p>
+                            </label>
+
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>.com.ge</p>
+                            </label>
+
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>.net.ge</p>
+                            </label>
+
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>.org.ge</p>
+                            </label>
+
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>.edu.ge</p>
+                            </label>
+
+
+                            <label class="checkboxes">
+                                <input type="checkbox">
+                                <p>.school.ge</p>
+                            </label>
+                        </div>
+                </nav>
+            </label>
+
+
+            <a href="#">
+                <img class="container__header-logoimg" src="./img/Symbols.svg" alt="logo">
+            </a>
+
+            <div class="bell-container">
+                <img class="container__header-bell" src="./img/bell.svg" alt="bell">
+            </div>
+
+            <div class="basket-container">
+                <img class="container__header-basket" src="./img/headerkalata.svg" alt="bell">
+                <span class="counter">0</span>
+            </div>
+
+            <div class="container__header-profile">
+                <img class="profile-logo" src="./img/profile.svg" alt="profile">
+
+                <h3 class="profile-name">
+                    Kancha Co.
+                </h3>
+
+                <img class="profile-shape" src="./img/Shape.svg" alt="Shape">
+            </div>
+
+            <div class="plag-container">
+                <img class="geoplag" src="./img/geoplag.svg" alt="plag">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-header2">
+
+        <div class="container__header2-home">
+            <ul class="container__header2-ul-left">
+                <a href="#" class="container__header-links-left">
+                    <li class="container__header2-li-left">დომენი</li>
+                </a>
+                <a href="#" class="container__header-links-left">
+                    <li class="container__header2-li-left">ტრანსფერი</li>
+                </a>
+                <a href="#" class="container__header-links-left">
+                    <li class="container__header2-li-left">ჰოსტინგი</li>
+                </a>
+                <a href="#" class="container__header-links-left">
+                    <li class="container__header2-li-left">Gmail</li>
+                </a>
+                <a href="#" class="container__header-links-left">
+                    <li class="container__header2-li-left">ვებგვერდი</li>
+                </a>
+                <a href="#" class="container__header-links-left">
+                    <li class="container__header2-li-market">დომენის მარკეტი</li>
+                </a>
+            </ul>
+
+            <ul class="container__header2-ul-right">
+                <a href="#" class="container__header-links-right">
+                    <li class="container__header2-li-right">ჩვენს შესახებ</li>
+                </a>
+                <a href="#" class="container__header-links-right">
+                    <li class="container__header2-li-right">ფასები</li>
+                </a>
+                <a href="#" class="container__header-links-right">
+                    <li class="container__header2-li-right">ბლოგი</li>
+                </a>
+                <a href="#" class="container__header-links-right">
+                    <li class="container__header2-li-daxmareba">დახმარება</li>
+                </a>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="ads-container">
+
+            <h1 class="container__ads-title">გაყიდე და იყიდე დომენი მარტივად</h1>
+
+        </div>
+
+        <div class="ads-container-mobile">
+
+            <h1 class="container__ads-title">გაყიდე და იყიდე დომენი მარტივად</h1>
+
+        </div>
+
+        <div class="header3">
+
+            <div class="domenebi-market-container">
+
+                <h3 class="domenebimarketze">დომენები მარკეტზე: </h3>
+                <h3 class="domenebi-raodenoba"> 703</h3>
+
+            </div>
+
+            <div class="sortireba-container">
+
+                <h3 class="sortireba">სორტირება:</h3>
+
+                <h3 class="sortireba__fordate">დამატების თარიღით</h3>
+
+                <img class="sortireba-img" src="./img/sortireba.svg" alt="sort">
+
+                <ul class="header3__ul">
+
+                    <a href="#" class="header3__ul-links">
+                        <li class="header3__ul-li-vada">ვადის ამოწურვით</li>
+                    </a>
+
+                    <a href="#" class="header3__ul-links">
+                        <li class="header3__ul-li">ფასით</li>
+                    </a>
+
+                    <a href="#" class="header3__ul-links">
+                        <li class="header3__ul-li">ანბანით</li>
+                    </a>
+
+                </ul>
+
+                <a href="#" class="rogorgavyido__link">
+                    <h3 class="rogorgavyido">როგორ გავყიდო დომენი?</h3>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="search-domenebi-container">
+
+            <div class="search-container">
+
+                <div class="search-container__inner">
+
+                    <input class="search" type="text" placeholder="სახელით ძიება">
+
+                    <h2 class="fasi">ფასი</h2>
+
+                    <div class="wrapper">
+                        <div class="price-input">
+                            <div class="inputwithicon">
+                                <input class="input-min" type="number" value="50">
+                                <i class="fa-solid fa-lari-sign"></i>
+                            </div>
+                            <div class="inputwithicon1">
+                                <input class="input-max" type="number" value="50000">
+                                <i class="fa-solid fa-lari-sign"></i>
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="range-min" min="50" max="50000" value="2500" step="150">
+                            <input type="range" class="range-max" min="50" max="50000" value="7500" step="150">
+                        </div>
+                    </div>
+
+                    <div class="simboloebis-raodenoba-container">
+
+                        <h1 class="simboloebis-raodenoba">სიმბოლოების რაოდონობა</h1>
+
+                    </div>
+
+                    <h1 class="kategoriebi">კატეგორიები</h1>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>ბიზნესი</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>უძრავი ქონება</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>ავტო</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>მედიცინა</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>ტექნოლოგიები</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>თამაშები</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>გართობა და დასვენება</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>მედია</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>განათლება</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>კომერცია</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>ფინანსები</p>
+                    </label>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>ბიზნესი</p>
+                    </label>
+
+                    <h1 class="domenis-zona">დომენის ზონა</h1>
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>.ge</p>
+                    </label>
+
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>.com.ge</p>
+                    </label>
+
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>.net.ge</p>
+                    </label>
+
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>.org.ge</p>
+                    </label>
+
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>.edu.ge</p>
+                    </label>
+
+
+                    <label class="checkboxes">
+                        <input type="checkbox">
+                        <p>.school.ge</p>
+                    </label>
+
+
+                    <div class="search-container-text-input-cont">
+
+                        <input type="search" placeholder="Market" class="search-container-text-input">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="domenebi-mtavari-container">
+
+                <div class="domenebi-container">
+
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.org.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.com.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+
+                            <div class="domein-basket" data-hover="დამატება">
+
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.edu.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+
+                            <div class="domein-basket" data-hover="დამატება">
+
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.net.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.pvt.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.school.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">ilia.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.com.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.edu.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.net.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.com.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.edu.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="domeins-bottom-line"></div>
+
+                    <div class="gijashvili-domeins-container">
+
+                        <img class="btn-send-img" src="./img/Btn_send.svg" alt="sendbtn">
+                        <img class="btn-send-green" src="./img/Btn_send-green.svg" alt="sendbtngreen">
+
+                        <p class="gijashvili-domein">gijashvili.net.ge</p>
+
+                        <div class="domein-prices">
+
+                            <h1 class="domein-price-lari">40 000 <i class="fa-solid fa-lari-sign"></i></h1>
+                            <h1 class="domein-price-dolar">14 285.7 $</h1>
+
+                        </div>
+
+                        <div class="damatebulia" onclick="damatebulia(this)">
+                            <div class="domein-basket" data-hover="დამატება">
+                                <img class="domein-basket-img" src="./img/kalati.svg" alt="basket">
+
+                            </div>
+
+                            <div class="domein-is-in-basket">
+
+                                <img class="domein-is-in-basket-img" src="./img/kalatshia.svg" alt="inthebasket">
+                                <p class="kalatshia-text">კალათშია</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <img class="ver-moidzebna-img" src="./img/vermoidzebna.svg" alt="nosearch">
+
+                <h1 class="ver-moidzebna-title">დომენი ვერ მოიძებნა</h1>
+
+                <p class="ver-moidzebna-text">მითითებული პარამეტრებით დომენების მარკეტში შედეგები ვერ მოიძებნა, შეცვალეთ
+                    ძიების პარამეტრები და ცადეთ თავიდან</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="https://kit.fontawesome.com/b315a9fd4e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
