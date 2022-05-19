@@ -718,7 +718,6 @@ body {
     width: 827px;
     height: 69px;
     transition: .5s;
-
 }
 
 .btn-send-img {
@@ -917,10 +916,15 @@ body {
 
 @media only screen and (max-width: 950px) {
     .domenebi-container {
+        margin-left: 0;
         width: 800px;
     }
 
     .gijashvili-domeins-container {
+        width: 750px;
+    }
+
+    .gijashvili-domeins-container:hover {
         width: 750px;
     }
 
@@ -938,6 +942,10 @@ body {
         width: 650px;
     }
 
+    .gijashvili-domeins-container:hover {
+        width: 650px;
+    }
+
     .domeins-bottom-line {
         width: 620px;
     }
@@ -949,6 +957,10 @@ body {
     }
 
     .gijashvili-domeins-container {
+        width: 550px;
+    }
+
+    .gijashvili-domeins-container:hover {
         width: 550px;
     }
 
@@ -966,6 +978,10 @@ body {
         width: 450px;
     }
 
+    .gijashvili-domeins-container:hover {
+        width: 450px;
+    }
+
     .domeins-bottom-line {
         width: 420px;
     }
@@ -977,6 +993,10 @@ body {
     }
 
     .gijashvili-domeins-container {
+        width: 350px;
+    }
+
+    .gijashvili-domeins-container:hover {
         width: 350px;
     }
 
@@ -1043,14 +1063,20 @@ body {
         display: block;
         justify-content: center;
         height: 180px;
-        width: 100%;
-        max-width: 850px;
+        width: 100vh;
         transform: translateY(40px);
         margin-top: 30px;
         text-align: center;
         background-image: url(../img/ads-bg-mobile2x.png);
         background-repeat: no-repeat;
         background-position: center;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 750px;
+        align-items: left;
+        justify-content: left;
     }
 }
 
