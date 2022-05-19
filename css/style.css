@@ -1031,6 +1031,17 @@ body {
     }
 }
 
+@media only screen and (max-width: 390px) {
+    .domenebi-mtavari-container {
+        width: 100%;
+        justify-items: left;
+    }
+
+    .domenebi-container {
+        width: 300px;
+    }
+}
+
 @media only screen and (max-width: 490px) {
     .domenebi-mtavari-container {
         width: 100%;
@@ -1051,6 +1062,7 @@ body {
     }
 
     .domein-price-lari {
+        margin-left: auto;
         height: 19px;
         font-family: TKTmed;
         font-weight: bold;
