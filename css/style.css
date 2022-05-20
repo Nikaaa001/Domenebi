@@ -876,7 +876,7 @@ body {
 }
 
 .ver-moidzebna-text {
-    width: 502px;
+    max-width: 502px;
     height: 40px;
     margin: 15px auto;
 
