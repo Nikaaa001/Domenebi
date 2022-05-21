@@ -43,6 +43,14 @@ body {
     margin: 0 auto;
 }
 
+.burger-menu-link {
+    display: none;
+}
+
+.burger-menu-open {
+    display: none;
+}
+
 .burger-menu {
     display: none;
 }
@@ -1053,6 +1061,18 @@ body {
     .container-header2 {
         display: none;
     }
+
+    .burger-menu-link {
+        display: block;
+        margin: auto 0;
+    }
+
+    .burger-menu-open {
+        display: block;
+        margin-left: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 @media only screen and (max-width: 1310px) {
@@ -1171,7 +1191,7 @@ body {
     }
 
     .container__header-logoimg {
-        margin: 20px 0;
+        margin: 20px 0 20px 15px;
     }
 
     .container__header-bell {
