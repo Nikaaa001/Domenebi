@@ -377,6 +377,45 @@ body {
     width: 400px;
     color: #171725;
 }
+/* header3-mob */
+.header3-mobile {
+    display: flex;
+}
+
+.input-sort-mob-cont {
+    display: none;
+}
+
+.input-sort-mob-cont1 {
+    display: none;
+    margin-left: 15px;
+}
+
+.sort-mob-link {
+    margin: auto 0 auto 13px;
+    text-decoration: none;
+    color: #696974;
+}
+
+.sort-mob-text {
+    margin: auto 0 auto 13px;
+    font-family: TKTmed;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.fa-grip-lines {
+    height: 15px;
+    width: 15px;
+    margin: auto 14px auto auto;
+    color: #92929D;
+}
+
+.sort-mob-img {
+    width: 10px;
+    height: 6px;
+    margin: auto 14px auto auto;
+}
 
 /* ------------------------------------------ search --------------------------------------- */
 
@@ -917,8 +956,8 @@ body {
 
 @media only screen and (max-width: 950px) {
     .domenebi-container {
-        margin-left: 0;
         width: 800px;
+        margin: 0 auto 0 -45px;
     }
 
     .gijashvili-domeins-container {
@@ -937,6 +976,7 @@ body {
 @media only screen and (max-width: 890px) {
     .domenebi-container {
         width: 700px;
+        margin: 0 auto 0 -45px;
     }
 
     .gijashvili-domeins-container {
@@ -955,6 +995,7 @@ body {
 @media only screen and (max-width: 790px) {
     .domenebi-container {
         width: 600px;
+        margin: 0 auto 0 -45px;
     }
 
     .gijashvili-domeins-container {
@@ -973,6 +1014,7 @@ body {
 @media only screen and (max-width: 690px) {
     .domenebi-container {
         width: 500px;
+        margin: 0 auto 0 -45px;
     }
 
     .gijashvili-domeins-container {
@@ -991,6 +1033,7 @@ body {
 @media only screen and (max-width: 590px) {
     .domenebi-container {
         width: 400px;
+        margin: 0 auto 0 -45px;
     }
 
     .gijashvili-domeins-container {
@@ -1019,9 +1062,29 @@ body {
     }
 }
 
-@media only screen and (max-width: 1195px) {
+@media only screen and (max-width: 1303px) {
     .header3 {
         display: none;
+    }
+
+    .input-sort-mob-cont {
+        width: 160px;
+        height: 40px;
+        margin: 60px 0 0 20px;
+        background-color: #FFFFFF;
+        border: 1px solid #E5E5ED;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    .input-sort-mob-cont1 {
+        width: 160px;
+        height: 40px;
+        margin: 60px 0 0 20px;
+        background-color: #FFFFFF;
+        border: 1px solid #E5E5ED;
+        border-radius: 10px;
+        display: flex;
     }
 }
 
@@ -1040,6 +1103,13 @@ body {
 
     .domenebi-container {
         width: 300px;
+        margin: 0 auto 0 -45px;
+    }
+}
+
+@media (max-width: 390px) {
+    .input-sort-mob-cont {
+        margin: 60px 0 0 0;
     }
 }
 
@@ -1051,7 +1121,7 @@ body {
 
     .domenebi-container {
         width: 350px;
-        margin: 0 auto 0 -45px;
+        margin: -35px auto 0 -45px;
     }
 
     .gijashvili-domein {
