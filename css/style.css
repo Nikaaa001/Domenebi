@@ -1064,14 +1064,12 @@ body {
 
     .burger-menu-link {
         display: block;
-        margin-left: 20px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto 0;
     }
 
     .burger-menu-open {
         display: block;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-top: auto;
         margin-bottom: auto;
     }
