@@ -1064,7 +1064,9 @@ body {
 
     .burger-menu-link {
         display: block;
-        margin: auto 0;
+        margin-left: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     .burger-menu-open {
