@@ -1073,6 +1073,10 @@ body {
         margin-top: auto;
         margin-bottom: auto;
     }
+
+    .container__header-logoimg {
+        margin: 27px 0 20px 15px;
+    }
 }
 
 @media only screen and (max-width: 1310px) {

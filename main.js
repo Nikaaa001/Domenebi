@@ -57,3 +57,9 @@ rangeInput.forEach(input => {
         }
     });
 });
+
+
+
+function burgeropen() {
+    document.querySelector('.search-container').style = "display: block; position: absolute; opacity: 1; background-color: white; margin-top: -230px;";
+}
