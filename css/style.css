@@ -1165,6 +1165,27 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
+    .container-header {
+        position: relative;
+        height: 60px;
+    }
+
+    .container__header-logoimg {
+        margin: 17px 0;
+    }
+
+    .container__header-bell {
+        margin: 5px 0;
+    }
+
+    .container__header-basket {
+        margin: 5px 0;
+    }
+
+    .container__header-profile {
+        margin: 5px 0;
+    }
+
     .profile-name, .profile-shape {
         display: none;
     }
