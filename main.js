@@ -59,7 +59,7 @@ rangeInput.forEach(input => {
 
 var b;
 
-function burgeropen() {
-    document.querySelector('.burger-menu').style.display = "block"
+function filteropen() {
+    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF;"
     return b = 1;
 }
