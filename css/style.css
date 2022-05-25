@@ -902,6 +902,7 @@ input[type="range"]::-moz-range-thumb {
 /* ----------------------------------- burger ------------------------------ */
 .menu-items {
     display: none;
+    z-index: 99;
 }
 
 .nav-container {
@@ -1208,7 +1209,10 @@ input[type="range"]::-moz-range-thumb {
     }
 
     .container__header-logoimg {
-        margin: 27px 0 20px 0;
+        position: absolute;
+        z-index: 4;
+        left: 60px;
+        /* margin: 27px 0 20px 0; */
     }
 }
 
