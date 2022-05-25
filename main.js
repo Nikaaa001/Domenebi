@@ -1,17 +1,19 @@
 var a;
-var x = document.querySelector('.counter').innerHTML = 0;
+
+let counter = document.querySelector('.counter')
+let count = 0
 
 function damatebulia(element) {
     if (a == 1) {
         element.querySelector('.domein-basket').style.display = "none"
         element.querySelector('.domein-is-in-basket').style.display = "flex"
-        x++;
-        console.log(x + 1)
+        count++
+        counter.textContent = `${count}`
+        console.log(count)
         return a = 0;
     } else {
         element.querySelector('.domein-is-in-basket').style.display = "none"
         element.querySelector('.domein-basket').style.display = "block"
-        console.log(x - 1)
         return a = 1;
     }
 };
