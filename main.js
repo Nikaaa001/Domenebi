@@ -1,23 +1,20 @@
 var a;
-var x = document.querySelector('.counter');
+var x = document.querySelector('.counter').innerHTML = 0;
 
 function damatebulia(element) {
     if (a == 1) {
         element.querySelector('.domein-basket').style.display = "none"
         element.querySelector('.domein-is-in-basket').style.display = "flex"
+        x++;
+        console.log(x + 1)
         return a = 0;
     } else {
         element.querySelector('.domein-is-in-basket').style.display = "none"
         element.querySelector('.domein-basket').style.display = "block"
+        console.log(x - 1)
         return a = 1;
     }
 };
-
-function burgermenuopen() {
-    // document.querySelector('.burger-btn').style = "display: none"
-    document.querySelector('.search-container').style = "display: inline-block; margin-top: -140px; background-color: solid #FFFFFF; z-index: 2; opacity: 3;"
-};
-
 
 const rangeInput = document.querySelectorAll(".range-input input"),
     priceInput = document.querySelectorAll(".price-input input"),
@@ -58,8 +55,9 @@ rangeInput.forEach(input => {
     });
 });
 
-
+var b;
 
 function burgeropen() {
-    document.querySelector('.search-container').style = "display: block; position: absolute; opacity: 1; background-color: white; margin-top: -230px;";
+    document.querySelector('.burger-menu').style.display = "block"
+    return b = 1;
 }
