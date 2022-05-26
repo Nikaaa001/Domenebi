@@ -381,6 +381,7 @@ body {
 }
 
 .input-sort-mob-cont {
+    cursor: pointer;
     display: none;
 }
 
@@ -1133,24 +1134,25 @@ input[type="range"]::-moz-range-thumb {
 
 @media only screen and (max-width: 950px) {
     .domenebi-container {
-        width: 800px;
-        margin: 0 auto 0 -45px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .gijashvili-domeins-container {
-        width: 750px;
+        width: 95%;
     }
 
     .gijashvili-domeins-container:hover {
-        width: 750px;
+        width: 95%;
     }
 
     .domeins-bottom-line {
-        width: 720px;
+        width: 90%;
     }
 }
 
-@media only screen and (max-width: 890px) {
+/* @media only screen and (max-width: 890px) {
     .domenebi-container {
         width: 700px;
         margin: 0 auto 0 -45px;
@@ -1186,9 +1188,9 @@ input[type="range"]::-moz-range-thumb {
     .domeins-bottom-line {
         width: 520px;
     }
-}
+} */
 
-@media only screen and (max-width: 690px) {
+/* @media only screen and (max-width: 690px) {
     .domenebi-container {
         width: 500px;
         margin: 0 auto 0 -45px;
@@ -1205,9 +1207,9 @@ input[type="range"]::-moz-range-thumb {
     .domeins-bottom-line {
         width: 420px;
     }
-}
+} */
 
-@media only screen and (max-width: 590px) {
+/* @media only screen and (max-width: 590px) {
     .domenebi-container {
         width: 400px;
         margin: 0 auto 0 -45px;
@@ -1224,7 +1226,7 @@ input[type="range"]::-moz-range-thumb {
     .domeins-bottom-line {
         width: 320px;
     }
-}
+} */
 
 @media only screen and (max-width: 1030px) {
     .container-header2 {
@@ -1293,7 +1295,7 @@ input[type="range"]::-moz-range-thumb {
     }
 }
 
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 390px) {
     .domenebi-mtavari-container {
         width: 100%;
         justify-items: left;
@@ -1303,7 +1305,7 @@ input[type="range"]::-moz-range-thumb {
         width: 300px;
         margin: 0 auto 0 -45px;
     }
-}
+} */
 
 @media (max-width: 390px) {
     .input-sort-mob-cont {
@@ -1313,7 +1315,7 @@ input[type="range"]::-moz-range-thumb {
 
 @media only screen and (max-width: 490px) {
 
-    .domenebi-mtavari-container {
+    /* .domenebi-mtavari-container {
         width: 100%;
         justify-items: left;
     }
@@ -1330,9 +1332,9 @@ input[type="range"]::-moz-range-thumb {
         font-family: TKTmed;
         font-weight: medium;
         font-size: 16px;
-    }
+    } */
 
-    .domein-price-lari {
+    /* .domein-price-lari {
         margin-left: auto;
         height: 19px;
         font-family: TKTmed;
@@ -1347,12 +1349,12 @@ input[type="range"]::-moz-range-thumb {
 
     .domein-basket {
         margin-right: 20px;
-    }
+    } */
 
-    .container {
+    /* .container {
         width: 100%;
         max-width: 490px;
-    }
+    } */
 
     .search-domenebi-container {
         margin-left: 0;
