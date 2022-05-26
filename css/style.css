@@ -1082,6 +1082,33 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* ----------------------------- mobile ---------------------------- */
+.mob-filter {
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px #0000000F;
+    display: none;
+}
+
+.mob-filter-text {
+    margin-top: 21px;
+    margin-left: 20px;
+    float: left;
+
+    font-family: TKTmed;
+    font-weight: bold;
+    font-size: 16px;
+    color: #696974;
+}
+
+.filterexit {
+    right: 5px;
+    margin-top: 11px;
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+}
 @media only screen and (max-width: 1200px) {
 
 
@@ -1093,10 +1120,6 @@ input[type="range"]::-moz-range-thumb {
         position: fixed;
         top: 80px;
         z-index: 88;
-    }
-
-    .search-container {
-        display: none;
     }
 
     .ads-container {
@@ -1224,6 +1247,20 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media only screen and (max-width: 1303px) {
+    .search-container {
+        width: 370px;
+        top: 53px;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .mob-filter {
+        display: block;
+        border-radius: 15px;
+    }
+
     .header3 {
         display: none;
     }
@@ -1275,9 +1312,6 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media only screen and (max-width: 490px) {
-    .search-container {
-        margin-top: -700px;
-    }
 
     .domenebi-mtavari-container {
         width: 100%;
@@ -1330,6 +1364,11 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media only screen and (max-width: 750px) {
+    .search-container {
+        width: 345px;
+        top: 36px;
+    }
+
     .container-header {
         position: relative;
         height: 60px;

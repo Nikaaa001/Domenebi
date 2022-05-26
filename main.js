@@ -63,3 +63,8 @@ function filteropen() {
     document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF;"
     return b = 1;
 }
+
+function filterclose() {
+    document.querySelector('.search-container').style = "display: none;";
+    return b = 0;
+}
