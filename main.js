@@ -80,6 +80,8 @@ function filterclose() {
 }
 // filtris dacurva
 
+
+// 
 priceInput.forEach(input => {
     input.addEventListener("input", e => {
         let minPrice = parseInt(priceInput[0].value),

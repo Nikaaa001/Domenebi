@@ -191,7 +191,7 @@ body {
 }
 
 .container__header2-li-market {
-    margin-right: 110px;
+    margin-right: 130px;
     color: #696974;
     font-family: TKTmed;
     font-weight: normal;
@@ -216,7 +216,7 @@ body {
     text-align: right;
     justify-content: right;
     /* margin-left: 220px; */
-    margin: auto 0 auto 273.5px;
+    margin: auto 0 auto 284px;
 }
 
 .container__header2-li-right {
@@ -233,6 +233,7 @@ body {
 }
 
 .container__header2-li-daxmareba {
+    margin-right: 0;
     text-align: right;
     float: right;
     color: #696974;
@@ -438,15 +439,15 @@ body {
     width: 380px;
     height: 100%;
     margin-top: 25px;
-    background-color: solid #FFFFFF;
-    border: 1px solid #F1F1F5;
-    border-radius: 15px;
 }
 
 .search-container__inner {
-    width: 315px;
+    width: 380px;
     height: 1000px;
     margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F5;
+    border-radius: 15px;
 }
 
 .search {
@@ -466,6 +467,7 @@ body {
 .fasi {
     text-align: left;
     margin-top: 35px;
+    margin-left: 32px;
 
     font-family: TKTmed;
     font-weight: bold;
@@ -476,6 +478,7 @@ body {
 .input-min {
     width: 150px;
     height: 44px;
+    margin-left: 32px;
     border: 1px solid #E5E5ED;
     border-radius: 10px;
 
@@ -487,6 +490,7 @@ body {
 .input-max {
     width: 150px;
     height: 44px;
+    margin-left: 27px;
     border: 1px solid #E5E5ED;
     border-radius: 10px;
 
@@ -582,6 +586,11 @@ input[type="number"]::-webkit-inner-spin-button {
     justify-content: center;
 }
 
+.slider-cont {
+    width: 315px;
+    margin: 0 auto;
+}
+
 .slider {
     height: 0;
     position: relative;
@@ -590,8 +599,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .slider .progress {
-    left: 25%;
-    right: 25%;
+    /* left: 25%;
+    right: 25%; */
     position: absolute;
     border: 2px solid #99CC66;
 }
@@ -646,6 +655,7 @@ input[type="range"]::-moz-range-thumb {
     width: 300px;
     text-align: left;
     margin-top: 40px;
+    margin-left: 32px;
 
     font-family: TKTmed;
     font-weight: bold;
@@ -660,6 +670,7 @@ input[type="range"]::-moz-range-thumb {
 .kategoriebi {
     margin-top: 27px;
     text-align: left;
+    margin-left: 32px;
 
     font-family: TKTmed;
     font-weight: bold;
@@ -672,6 +683,7 @@ input[type="range"]::-moz-range-thumb {
     margin-top: 25px;
     align-items: center;
     cursor: pointer;
+    margin-left: 30px;
 
     font-family: TKTmed;
     font-weight: normal;
@@ -728,6 +740,7 @@ input[type="range"]::-moz-range-thumb {
 
 .domenis-zona {
     margin-top: 40px;
+    margin-left: 32px;
 
     text-align: left;
     font-family: TKTmed;
