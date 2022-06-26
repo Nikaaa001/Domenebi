@@ -333,8 +333,8 @@ body {
 }
 
 .sortireba__fordate {
-    width: 160px;
-    margin: auto 12px;
+    width: 200px;
+    margin: auto 5px auto 16px;
 
     color: #99CC66;
     font-family: TKTmed;
@@ -345,7 +345,7 @@ body {
 .sortireba-img {
     width: 18px;
     height: 9px;
-    margin: auto -7px;
+    margin: auto 18px auto 6px;
 }
 
 .header3__ul {
@@ -356,19 +356,21 @@ body {
 
 .header3__ul-links {
     text-decoration: none;
+    margin-right: 20px;
 }
 
 .header3__ul-li {
-    margin-left: 20px;
-
     color: #92929D;
     font-family: TKTreg;
     font-weight: normal;
     font-size: 14px;
 }
 
+.header3__ul-li:hover {
+    color: #99CC66;
+}
+
 .header3__ul-li-vada {
-    margin-left: 18px;
     width: 140px;
 
     color: #92929D;
@@ -377,8 +379,12 @@ body {
     font-size: 14px;
 }
 
+.header3__ul-li-vada:hover {
+    color: #99CC66;
+}
+
 .rogorgavyido {
-    margin-left: 150px;
+    /* margin-left: 135px; */
 
     font-family: TKTmed;
     font-weight: normal;
@@ -387,9 +393,17 @@ body {
 }
 
 .rogorgavyido__link {
-    margin: auto 0;
-    width: 400px;
+    margin: auto 0 auto 135px;
+    width: 250px;
     color: #171725;
+}
+
+.rogorgavyido:hover {
+    color: #99CC66;
+}
+
+.rogorgavyido__link:hover {
+    color: #99CC66;
 }
 
 /* header3-mob */
@@ -522,13 +536,13 @@ body {
 .inputwithicon1 .fa-lari-sign {
     position: absolute;
     margin-top: -32px;
-    margin-left: 45px;
+    margin-left: 80px;
 }
 
 .inputwithicon .fa-lari-sign {
     position: absolute;
     margin-top: -32px;
-    margin-left: 45px;
+    margin-left: 80px;
 }
 
 /* ----------------------------- rangesliders ----------------------------------- */
@@ -599,8 +613,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .slider .progress {
-    /* left: 25%;
-    right: 25%; */
+    left: 25%;
+    right: 25%;
     position: absolute;
     border: 2px solid #99CC66;
 }
