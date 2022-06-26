@@ -13,6 +13,12 @@ const rangeInput = document.querySelectorAll(".range-input input"),
 let priceGap = 1000;
 //priceslider
 
+//priceslider2
+const rangeInput2 = document.querySelectorAll(".range-input2 input"),
+    priceInput2 = document.querySelectorAll(".price-input2 input"),
+    range2 = document.querySelector(".slider2 .progress2");
+let priceGap2 = 1;
+//priceslider2
 
 //counter
 let counter = document.querySelector('.counter');
@@ -81,7 +87,7 @@ function filterclose() {
 // filtris dacurva
 
 
-// 
+// Price Filter
 priceInput.forEach(input => {
     input.addEventListener("input", e => {
         let minPrice = parseInt(priceInput[0].value),
@@ -116,3 +122,42 @@ rangeInput.forEach(input => {
         }
     });
 });
+// Price Filter
+
+
+// Symbols Filter
+priceInput2.forEach(input => {
+    input.addEventListener("input", e => {
+        let minPrice2 = parseInt(priceInput2[0].value),
+            maxPrice2 = parseInt(priceInput2[1].value);
+
+        if ((maxPrice - minPrice2 >= priceGap2) && maxPrice2 <= rangeInput2[1].max) {
+            if (e.target.className === "input-min2") {
+                rangeInput2[0].value = minPrice2;
+                range2.style.left = ((minPrice2 / rangeInput2[0].max) * 100) + "%";
+            } else {
+                rangeInput2[1].value = maxPrice2;
+                range2.style.right = 100 - (maxPrice2 / rangeInput2[1].max) * 100 + "%";
+            }
+        }
+    });
+});
+rangeInput2.forEach(input => {
+    input.addEventListener("input", e => {
+        let minVal2 = parseInt(rangeInput2[0].value),
+            maxVal2 = parseInt(rangeInput2[1].value);
+        if ((maxVal2 - minVal2) < priceGap2) {
+            if (e.target.className === "range-min2") {
+                rangeInput2[0].value = maxVal2 - priceGap2
+            } else {
+                rangeInput2[1].value = minVal2 + priceGap2;
+            }
+        } else {
+            priceInput2[0].value = minVal2;
+            priceInput2[1].value = maxVal2;
+            range2.style.left = ((minVal2 / rangeInput2[0].max) * 100) + "%";
+            range2.style.right = 100 - (maxVal2 / rangeInput2[1].max) * 100 + "%";
+        }
+    });
+});
+// Symbols Filter
