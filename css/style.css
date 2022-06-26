@@ -175,7 +175,6 @@ body {
 }
 
 .container__header2-li-left {
-    margin-right: 25px;
     color: #696974;
     font-family: TKTmed;
     font-weight: normal;
@@ -184,6 +183,11 @@ body {
 
 .container__header-links-left {
     text-decoration: none;
+    margin-right: 20px;
+}
+
+.container__header2-li-left:hover {
+    color: #99CC66;
 }
 
 .container__header2-li-market {
@@ -192,6 +196,10 @@ body {
     font-family: TKTmed;
     font-weight: normal;
     font-size: 14px;
+}
+
+.container__header2-li-market:hover {
+    color: #99CC66;
 }
 
 /* .container-header2-right {
@@ -213,12 +221,15 @@ body {
 
 .container__header2-li-right {
     text-align: right;
-    margin-right: 30px;
     float: right;
     color: #696974;
     font-family: TKTmed;
     font-weight: normal;
     font-size: 14px;
+}
+
+.container__header2-li-right:hover {
+    color: #99CC66;
 }
 
 .container__header2-li-daxmareba {
@@ -230,8 +241,13 @@ body {
     font-size: 14px;
 }
 
+.container__header2-li-daxmareba:hover {
+    color: #99CC66;
+}
+
 .container__header-links-right {
     text-decoration: none;
+    margin-right: 25px;
 }
 
 /* ------------------------------------- container ---------------------------------------- */
@@ -420,7 +436,7 @@ body {
 
 .search-container {
     width: 380px;
-    height: 1400px;
+    height: 100%;
     margin-top: 25px;
     background-color: solid #FFFFFF;
     border: 1px solid #F1F1F5;
@@ -428,8 +444,8 @@ body {
 }
 
 .search-container__inner {
-    width: 325px;
-    height: 1800px;
+    width: 315px;
+    height: 1000px;
     margin: 0 auto;
 }
 
@@ -495,7 +511,8 @@ body {
     width: 150px;
     height: 44px;
     margin-top: 15px;
-    margin-left: 18px;
+    margin-left: 15px;
+    margin-right: 35px;
 }
 
 .inputwithicon1 .fa-lari-sign {
@@ -725,8 +742,7 @@ input[type="range"]::-moz-range-thumb {
 
 .domenebi-container {
     width: 100%;
-    max-width: 866px;
-    height: 1007px;
+    height: auto;
     background: #FFFFFF;
     border: 1px solid #F1F1F5;
     border-radius: 15px;
@@ -736,7 +752,6 @@ input[type="range"]::-moz-range-thumb {
 
 .domenebi-mtavari-container {
     width: 100%;
-    max-width: 867px;
     margin-left: 40px;
     margin-top: 27px;
     height: 1500px;
@@ -909,12 +924,13 @@ input[type="range"]::-moz-range-thumb {
 .nav-container {
     display: none;
 }
-@media (max-width: 1030px) { 
+
+@media (max-width: 1030px) {
     .navbar {
         width: 100%;
-        box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+        box-shadow: 0 1px 4px #FFFFFF;
     }
-    
+
     .nav-container {
         display: flex;
         justify-content: space-between;
@@ -922,15 +938,15 @@ input[type="range"]::-moz-range-thumb {
         width: 100%;
         height: 100%;
     }
-    
+
     .navbar .menu-items {
         display: flex;
     }
-    
+
     .navbar .nav-container li {
         list-style: none;
     }
-    
+
     .navbar .nav-container a {
         text-decoration: none;
         color: #10191f;
@@ -938,7 +954,7 @@ input[type="range"]::-moz-range-thumb {
         font-size: 1.2rem;
         padding: 0.7rem;
     }
-    
+
     .navbar .nav-container a:hover {
         font-weight: bolder;
     }
@@ -948,7 +964,7 @@ input[type="range"]::-moz-range-thumb {
         position: relative;
         height: 60px;
     }
-    
+
     .nav-container .checkbox {
         position: absolute;
         display: block;
@@ -1006,16 +1022,16 @@ input[type="range"]::-moz-range-thumb {
         margin-left: -40px;
         padding-left: 50px;
         transition: transform 0.5s ease-in-out;
-        background-color: #c4c4c4;
+        background-color: #FFFFFF;
         text-align: center;
     }
-    
+
     .navbar .menu-items li {
         margin-bottom: 1.2rem;
         font-size: 1.5rem;
         font-weight: 500;
     }
-    
+
     .logo {
         position: absolute;
         top: 5px;
@@ -1023,27 +1039,27 @@ input[type="range"]::-moz-range-thumb {
         font-size: 1.2rem;
         color: #0e2431;
     }
-    
+
     .nav-container input[type="checkbox"]:checked~.menu-items {
         transform: translateX(0);
     }
-    
+
     .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
         transform: rotate(45deg);
     }
-    
+
     .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
         transform: scaleY(0);
     }
-    
+
     .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
         transform: rotate(-45deg);
     }
-    
+
     .nav-container input[type="checkbox"]:checked~.logo {
         display: none;
     }
-    
+
 }
 
 /* ------------------------------------ search --------------------------------- */
@@ -1110,6 +1126,7 @@ input[type="range"]::-moz-range-thumb {
     float: right;
     cursor: pointer;
 }
+
 @media only screen and (max-width: 1200px) {
 
 
@@ -1135,7 +1152,7 @@ input[type="range"]::-moz-range-thumb {
 @media only screen and (max-width: 950px) {
     .domenebi-container {
         width: 100%;
-        margin-left: auto;
+        margin-left: 0;
         margin-right: auto;
     }
 
@@ -1151,82 +1168,6 @@ input[type="range"]::-moz-range-thumb {
         width: 90%;
     }
 }
-
-/* @media only screen and (max-width: 890px) {
-    .domenebi-container {
-        width: 700px;
-        margin: 0 auto 0 -45px;
-    }
-
-    .gijashvili-domeins-container {
-        width: 650px;
-    }
-
-    .gijashvili-domeins-container:hover {
-        width: 650px;
-    }
-
-    .domeins-bottom-line {
-        width: 620px;
-    }
-}
-
-@media only screen and (max-width: 790px) {
-    .domenebi-container {
-        width: 600px;
-        margin: 0 auto 0 -45px;
-    }
-
-    .gijashvili-domeins-container {
-        width: 550px;
-    }
-
-    .gijashvili-domeins-container:hover {
-        width: 550px;
-    }
-
-    .domeins-bottom-line {
-        width: 520px;
-    }
-} */
-
-/* @media only screen and (max-width: 690px) {
-    .domenebi-container {
-        width: 500px;
-        margin: 0 auto 0 -45px;
-    }
-
-    .gijashvili-domeins-container {
-        width: 450px;
-    }
-
-    .gijashvili-domeins-container:hover {
-        width: 450px;
-    }
-
-    .domeins-bottom-line {
-        width: 420px;
-    }
-} */
-
-/* @media only screen and (max-width: 590px) {
-    .domenebi-container {
-        width: 400px;
-        margin: 0 auto 0 -45px;
-    }
-
-    .gijashvili-domeins-container {
-        width: 350px;
-    }
-
-    .gijashvili-domeins-container:hover {
-        width: 350px;
-    }
-
-    .domeins-bottom-line {
-        width: 320px;
-    }
-} */
 
 @media only screen and (max-width: 1030px) {
     .container-header2 {
@@ -1249,6 +1190,10 @@ input[type="range"]::-moz-range-thumb {
 }
 
 @media only screen and (max-width: 1303px) {
+    .domenebi-mtavari-container {
+        margin-left: 0
+    }
+
     .search-container {
         width: 370px;
         top: 53px;
@@ -1295,17 +1240,12 @@ input[type="range"]::-moz-range-thumb {
     }
 }
 
-/* @media only screen and (max-width: 390px) {
-    .domenebi-mtavari-container {
-        width: 100%;
-        justify-items: left;
-    }
+@media only screen and (max-width: 460px) {
+    .domein-basket:hover {
+        display: none;
 
-    .domenebi-container {
-        width: 300px;
-        margin: 0 auto 0 -45px;
     }
-} */
+}
 
 @media (max-width: 390px) {
     .input-sort-mob-cont {
@@ -1315,17 +1255,15 @@ input[type="range"]::-moz-range-thumb {
 
 @media only screen and (max-width: 490px) {
 
-    /* .domenebi-mtavari-container {
+    .domenebi-mtavari-container {
         width: 100%;
-        justify-items: left;
     }
 
     .domenebi-container {
-        width: 350px;
-        margin: -35px auto 0 -45px;
+        width: 100vw;
     }
 
-    .gijashvili-domein {
+    /* .gijashvili-domein {
         margin: auto 0 auto 15px;
         text-align: left;
 
@@ -1334,7 +1272,7 @@ input[type="range"]::-moz-range-thumb {
         font-size: 16px;
     } */
 
-    /* .domein-price-lari {
+    .domein-price-lari {
         margin-left: auto;
         height: 19px;
         font-family: TKTmed;
@@ -1349,12 +1287,12 @@ input[type="range"]::-moz-range-thumb {
 
     .domein-basket {
         margin-right: 20px;
-    } */
+    }
 
-    /* .container {
+    .container {
         width: 100%;
         max-width: 490px;
-    } */
+    }
 
     .search-domenebi-container {
         margin-left: 0;

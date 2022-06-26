@@ -1,8 +1,53 @@
 var a;
+var b;
 
-let counter = document.querySelector('.counter')
-let count = 0
+// domeinsfilter
+const btns = document.querySelectorAll('.checkboxes');
+const storeProducts = document.querySelectorAll('.gijashvili-domeins-container');
+// domeinsfilter
 
+//priceslider
+const rangeInput = document.querySelectorAll(".range-input input"),
+    priceInput = document.querySelectorAll(".price-input input"),
+    range = document.querySelector(".slider .progress");
+let priceGap = 1000;
+//priceslider
+
+
+//counter
+let counter = document.querySelector('.counter');
+let count = 0;
+//counter
+
+
+//domeinsfilter
+
+for (i = 0; i < btns.length; i++) {
+
+    btns[i].addEventListener('click', (e) => {
+        e.preventDefault()
+
+        const filter = e.target.dataset.filter;
+        console.log(filter);
+
+        storeProducts.forEach((product) => {
+            if (filter === 'all') {
+                product.style.display = 'flex'
+            } else {
+                if (product.classList.contains(filter)) {
+                    product.style.display = 'flex'
+                } else {
+                    product.style.display = 'none'
+                }
+            }
+        });
+    });
+};
+
+//domeinsfilter
+
+
+//inbasket
 function damatebulia(element) {
     if (a == 1) {
         element.querySelector('.domein-basket').style.display = "none"
@@ -17,11 +62,24 @@ function damatebulia(element) {
         return a = 1;
     }
 };
+//inbasket
 
-const rangeInput = document.querySelectorAll(".range-input input"),
-    priceInput = document.querySelectorAll(".price-input input"),
-    range = document.querySelector(".slider .progress");
-let priceGap = 1000;
+
+// filtris gaxsna
+function filteropen() {
+    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF;"
+    return b = 1;
+}
+// filtris gaxsna
+
+
+// filtris dacurva
+function filterclose() {
+    document.querySelector('.search-container').style = "display: none;";
+    return b = 0;
+}
+// filtris dacurva
+
 priceInput.forEach(input => {
     input.addEventListener("input", e => {
         let minPrice = parseInt(priceInput[0].value),
@@ -56,15 +114,3 @@ rangeInput.forEach(input => {
         }
     });
 });
-
-var b;
-
-function filteropen() {
-    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF;"
-    return b = 1;
-}
-
-function filterclose() {
-    document.querySelector('.search-container').style = "display: none;";
-    return b = 0;
-}
