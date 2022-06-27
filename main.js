@@ -81,7 +81,7 @@ function damatebulia(element) {
 
 // filtris gaxsna
 function filteropen() {
-    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF; width: 390px;"
+    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF; width: 100vw;"
     return b = 1;
 }
 // filtris gaxsna
