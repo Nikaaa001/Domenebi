@@ -25,6 +25,14 @@ let counter = document.querySelector('.counter');
 let count = 0;
 //counter
 
+// sort
+var c;
+const inputBtn = document.querySelector('.input-sort-mob-cont1');
+const dropDown = document.querySelector('.sort-mob-img');
+const dropDownAct = document.querySelector('.drop-down-act');
+const dropMenu = document.querySelector('.sort-menu');
+// sort
+
 
 //domeinsfilter
 
@@ -73,7 +81,7 @@ function damatebulia(element) {
 
 // filtris gaxsna
 function filteropen() {
-    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF;"
+    document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF; width: 390px;"
     return b = 1;
 }
 // filtris gaxsna
@@ -161,3 +169,19 @@ rangeInput2.forEach(input => {
     });
 });
 // Symbols Filter
+
+// sort
+function sortopen() {
+    if (c == 1) {
+        dropDown.style.display = "block"
+        dropDownAct.style.display = "none"
+        dropMenu.style.display = "none"
+        return c = 0;
+    } else {
+        dropDown.style.display = "none"
+        dropDownAct.style.display = "block"
+        dropMenu.style.display = "block"
+        return c = 1;
+    }
+}
+// sort
