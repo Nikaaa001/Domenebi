@@ -10,7 +10,7 @@ const storeProducts = document.querySelectorAll('.gijashvili-domeins-container')
 const rangeInput = document.querySelectorAll(".range-input input"),
     priceInput = document.querySelectorAll(".price-input input"),
     range = document.querySelector(".slider .progress");
-let priceGap = 1000;
+let priceGap = 50;
 //priceslider
 
 //priceslider2
@@ -82,7 +82,7 @@ function damatebulia(element) {
 // filtris gaxsna
 function filteropen() {
     document.querySelector('.search-container').style = "display: block; position: absolute; background-color: #FFFFFF; width: 375px"
-    document.querySelector('.search-container__inner').style = "width: 90vw"
+    document.querySelector('.search-container__inner').style = "width: 370px"
     return b = 1;
 }
 // filtris gaxsna
