@@ -33,6 +33,41 @@ const dropDownAct = document.querySelector('.drop-down-act');
 const dropMenu = document.querySelector('.sort-menu');
 // sort
 
+// DomeinFilterprice
+const priceLari = document.querySelector('.domein-price-lari');
+const inputMinLari = document.querySelector('.input-min');
+const inputMaxLari = document.querySelector('.input-max');
+// DomeinFilterprice
+
+// Domeinslist
+const domeinsList = [{
+    domeinName: "gijashvili",
+    domein: ".org.ge",
+    price: 500,
+    },
+    {
+    domeinName: "gijashvili1",
+    domein: ".com.ge",
+    price: 120,
+    },
+    {
+    domeinName: "gijashvili2",
+    domein: ".edu.ge",
+    price: 80,
+    },
+    {
+    domeinName: "gijashvili3",
+    domein: ".net.ge",
+    price: 60,
+    },
+    {
+    domeinName: "gijashvili4",
+    domein: ".school.ge",
+    price: 80,
+    }
+]
+// DomeinsList
+
 
 //domeinsfilter
 
